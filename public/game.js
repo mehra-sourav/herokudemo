@@ -172,7 +172,7 @@ document.documentElement.addEventListener("click", function(){
 (function()
 {
     console.log("IN game..js")
-    var socket = io.connect('http://localhost:3000'),player,game;
+    var socket = io.connect('https://frozen-cove-13978.herokuapp.com/'),player,game;
     
     //Creating a new game
 //    socket.on("player1",function(data){
