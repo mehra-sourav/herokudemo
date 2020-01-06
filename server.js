@@ -25,7 +25,7 @@ app.use(express.static('public'));
 
 
 app.get('/',function(req,res){
-    res.sendFile(path.resolve(__dirname+"index.html"))
+    res.sendFile(path.resolve(__dirname+"/index.html"))
     
 //    console.log(req.body.name)
 })
